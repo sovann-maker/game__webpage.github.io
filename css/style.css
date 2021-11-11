@@ -1,0 +1,176 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        header {
+            background-color: #000;
+            display: flex;
+            width: 100%;
+            height: 8vh;
+            margin: auto;
+            align-items: center;
+            border-bottom: rgb(110, 108, 108) solid;
+            padding-bottom: 0px;
+        }
+        
+        header ul li {
+            width: 150px;
+            height: 60px;
+            line-height: 60px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        header ul li:hover {
+            background-color: linear-gradient(#cc66ff, #f4f4f4);
+        }
+        
+        .logo-container,
+        .nav-links,
+        .cart {
+            display: flex;
+        }
+        
+        .logo img {
+            width: 500px;
+            height: 400px;
+            margin-left: 40px;
+            margin-top: 25px;
+            border: 1px solid white;
+        }
+        
+        .logo-container {
+            flex: 1;
+        }
+        
+        nav {
+            flex: 2;
+        }
+        
+        .nav-links {
+            justify-content: space-around;
+            list-style: none;
+        }
+        
+        .nav-link .ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            font-weight: bold;
+            transition: 0.4s ease-in-out;
+        }
+        
+        .nav-link .ul li a:hover {
+            color: orange;
+        }
+        
+        .nav-link {
+            font-weight: bold;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        
+        .nav-link a {
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.4s ease-in-out;
+        }
+        
+        .cart {
+            flex: 1;
+            justify-content: flex-end;
+            margin-right: 20px;
+        }
+        
+        .cart img {
+            cursor: pointer;
+            width: auto;
+            height: 40px;
+            padding-left: 10px;
+        }
+        
+        .adjust-img {
+            height: 800px;
+        }
+        
+        main {
+            padding: 2px solid black;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            margin-top: 20px;
+            margin-left: 50px;
+            background-color: white;
+            margin-bottom: 100pxpx;
+        }
+        
+        .container h1 {
+            display: flex;
+            float: center;
+            font-family: 'Courier New', Courier, monospace;
+            width: fit-content;
+            font-weight: bold;
+            padding: 5px;
+            color: white;
+            font-size: 30px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: black;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        
+        .container h1:hover {
+            color: rgb(211, 68, 12);
+        }
+        
+        .spacing {
+            border-spacing: 20px;
+        }
+        
+        .footer {
+            padding: 40px 0;
+            background-color: #ffff;
+            border: 2px solid black;
+        }
+        
+        .footer .social {
+            text-align: center;
+            padding-bottom: 25px;
+            color: #4b4c4d;
+        }
+        
+        .footer .social a {
+            font-size: 24px;
+            color: inherit;
+            border: 1px solid#ccc;
+            width: 40px;
+            height: 40px;
+            line-height: 38px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            margin: 0 8px;
+            opacity: 0.75;
+        }
+        
+        .footer .social a:hover {
+            opacity: 0.9;
+        }
+        
+        .footer .social div {
+            padding-top: 5px;
+        }
+        
+        .footer h3 {
+            text-align: center;
+            padding-bottom: 2px;
+        }
