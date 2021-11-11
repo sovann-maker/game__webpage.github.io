@@ -174,3 +174,12 @@
             text-align: center;
             padding-bottom: 2px;
         }
+        
+        .card-hover {
+            cursor: pointer;
+        }
+        
+        .card-hover :hover {
+            color: rgb(124, 97, 87);
+            transform: translateY(20px);
+        }
